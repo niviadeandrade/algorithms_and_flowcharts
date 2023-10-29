@@ -1,0 +1,23 @@
+Algoritmo "resultado_potencialização"
+//
+// Disciplina   : Algoritmo e programação estruturada
+// Autor(a)    : Nivia Andrade
+
+Var
+// Seção de Declarações das variáveis
+a, b, i, resultado: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+resultado <- 1
+escreval ("Calculadora de potência")
+escreval ("Digite um número inteiro para ser a base")
+leia (a)
+escreval ("Digite um número inteiro para ser o expoente")
+leia (b)
+para i de 1 até b faça
+resultado <- resultado * a
+FimPara
+escreva ("O resultado é", resultado)
+Fimalgoritmo
