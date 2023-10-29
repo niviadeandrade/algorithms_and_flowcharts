@@ -1,0 +1,19 @@
+Algoritmo "maior_ou_menor_idade"
+//
+//Disciplina:Algoritmos e programação estruturada
+// Autor(a)    : Nivia Andrade
+
+Var
+// Seção de Declarações das variáveis
+idade : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva ("Digite sua idade")
+leia (idade)
+se idade >= 18 então
+   escreva ("Maior de idade")
+senão
+   escreva ("menor de idade")
+FimSe
+Fimalgoritmo
